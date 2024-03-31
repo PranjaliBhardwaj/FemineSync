@@ -3,14 +3,15 @@
     margin: 0;
 }
 
-.navbar {
+..navbar {
     display: flex;
-    background-color:#D71F8D;
+    background-color:#ffffff;
     top: 0;
 }
 
 .logo img {
-    margin-left: 10px;
+    margin-left: 275px;
+    margin-right: 300px;
     height: 75px;
     width: 200px;
 }
@@ -20,28 +21,29 @@
     flex-direction: row;
     align-items: center;
     margin-right: 1rem;
-    padding-left: 30rem;
     padding-right: 5rem;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 400;
     font-size: 20px;
 }
 .nav-options p {
-    margin: 30px;
+    margin-left: 35px;
+    font-size: 1rem;
 }
 .nav-options button {
     display: flex;
-   background-color:white;
-   opacity: 0.5;
-   color: black;
+    color: white;
    padding: 5px 15px 5px 15px;
-   border-radius: 0.5rem;
-   border: none;
+   border-radius: 0.7rem;
    margin: 20px;
-   font-weight: 700;
-}
-.nav-options p:hover {
-    text-decoration: underline;
+   font-weight: 500;
+   width: 6.5rem;
+   padding-left : 1.7rem;
+   margin-right: 2rem;
+   border-color: #812A6E;
+   background-color: #812A6E;
+ 
+   
 }
 .circle1 img {
     height: 200px;
@@ -176,12 +178,15 @@ h5 {
 }
 .footer {
     bottom:0;
-    background-color: #D71F8D;
-    margin-top: 10px;
+    background-color: #ffffff;
+    margin-top: 1100px;
     justify-content: space-evenly;
     align-items: center;
-    display: flex;
     z-index: 10;
+}
+
+.fup {
+    display: flex;
 }
 
 .logo2 {
@@ -192,43 +197,79 @@ h5 {
     height: 100px;
     width: 250px;
     margin-top: 20px;
-    margin-left: 0px;
+    margin-left: 60px;
 }
-.logo2 p {
-    color: white;
-    font-weight: 300px;
-    font-size: 25px;
-    margin-left: 5px;
-    margin-top: 10px;
-}
+
 .con {
     margin-left: 100px;
-    width: 250px;
-    height: 300px;
+}
+.con1 {
+   display: flex;
+}
+
+.con2  {
+    display: flex;
+}
+
+.con1 p {
+    margin-left: 30px;
     margin-top: 50px;
-  
-} 
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.con2 p {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;  
+}
 
 .mail {  
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 20px;
-    margin: 20px;
 }
 
 .contact {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 20px;
-    margin: 20px;
+   
+}
+
+.contactpro {
+    margin-left: 300px;
+    margin-top: 50px;
 }
 .cn {
     margin-left: 200px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 25px;
     display: block;
-    width: 250px;
-    height: 300px;
-    margin-top: 50px;
+   margin-bottom: 50px;
+    align-items: center;
+}
+
+.cn p {
+    margin-left: 500px;
+}
+
+
+.cni {
+    margin-left : 350px;
+    display: flex;
+    margin-left: 200px;
+}
+
+.cn i {
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.cn hr {
+    width: 900px;
+    margin-left: 100px;
 }
 .cn:hover i {
     border: black;
 }
+
