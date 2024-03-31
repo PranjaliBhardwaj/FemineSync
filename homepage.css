@@ -63,27 +63,27 @@
     width: 1530px;
     background-size: cover;
     border-bottom-left-radius: 25rem;
-    border-bottom-right-radius: 15rem;
     background-image: url("img/front.png");
     background-repeat: no-repeat;
+    border: none;
 }
 
-.bg p {
-    z-index: 2;
-}
 
-.bg .redtext {
+.redtext {
     font-size: 5rem;
     margin-left: 100px;
     color: red;
-    margin-top: 100px;
+    position: relative;
+    top: 150px;
+    font-family: "Felipa", serif;     
 }
 
 .blacktext {
     font-size: 2rem;
     color: black;
     margin-left: 100px;
-    margin-top: 10px;
+    margin-top: 250px;
+    font-weight: 600;
 }
 h2 {
     color:red;
@@ -462,7 +462,6 @@ h4 {
     margin-left: 500px;
 }
 
-
 .cni {
     margin-left : 350px;
     display: flex;
@@ -474,10 +473,15 @@ h4 {
     margin-right: 45px;
 }
 
+.cni p {
+   font-family: "Reddit Mono", monospace;
+ }
+
 .cn hr {
     width: 900px;
     margin-left: 100px;
 }
+
 .cn:hover i {
     border: black;
 }
